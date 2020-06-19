@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #08090d;
+}
+
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+
+.center{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-1 img{
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+}
+
+.header-1 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgba(255, 95, 2, 0.5);
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid white;    
+}
+
+.menu ul li a {
+    padding: 10px 5px;
+    color: #716d6d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: MS Reference Sans Serif;
+}
+
+.menu ul li a:hover{
+    color: black;
+}
+
+div.texto{
+    margin-top: -5px;
+}
+
+.texto{
+    border: 15px solid rgba(255, 95, 2, 0.5);;
+}
+
+.texto p{
+    width: 100%;
+    text-align: justify;
+    background-color: rgba(255, 95, 2, 0.5);
+}
+
+.teste{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.teste img{
+    margin: 0 auto;
+    height: 10%;
+    width: 10%;
+    /*background-image: url(../imagens/ito.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;*/
+}
+
+.teste p{
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: orange;
+    width: 80%;
+    height: 30%;
+}
+
+
+.footer{
+    padding: 6px 0;
+    border-top: 4px solid orange;
+    background-color: rgba(255, 95, 2, 0.5);
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer a{
+    text-align: justify;
+    text-decoration: none;
+    color: black;
+    text-decoration-line: underline;
+}
+
+.footer a:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1024px){
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .center{
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    .center{
+        overflow: hidden;
+    }
+}
